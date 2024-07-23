@@ -1,0 +1,405 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body,
+html {
+   width: 100%;
+   height: 100%;
+}
+
+.main {
+   width: 100%;
+
+}
+ /* home page ---------------------------------------------------------------- */
+
+
+.home {
+   /* background-color: red; */
+   overflow: hidden;
+   position: relative;
+   width: 100%;
+   height: 100vh;
+}
+
+.home>img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+
+}
+
+.overlay {
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   position: absolute;
+   overflow: hidden;
+}
+
+.circle {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 65vw;
+   height: 65vw;
+   border-radius: 50%;
+   /* background-color: rgb(184, 20, 20); */
+}
+
+.circle img {
+   position: absolute;
+   width: 100%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+.top {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   /* background-color: green; */
+}
+
+.btm {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /* background-color: rgb(69, 0, 230); */
+
+}
+
+.top>img {
+   transform: translate(-50%, -50%) rotate(-180deg);
+
+}
+
+.btm img:nth-child(1) {
+   transform: translate(-50%, -50%)scale(2);
+}
+
+.btm img:nth-child(2) {
+   transform: translate(-50%, -50%)scale(1.5);
+}
+
+.btm img:nth-child(3) {
+   transform: translate(-50%, -50%)scale(1);
+}
+
+.top img:nth-child(1) {
+   transform: translate(-50%, -50%)rotate(-180deg) scale(2);
+}
+
+.top img:nth-child(2) {
+   transform: translate(-50%, -50%)rotate(-180deg) scale(1.5);
+}
+
+.top img:nth-child(3) {
+   transform: translate(-50%, -50%)rotate(-180deg) scale(1);
+}
+
+.smcircle {
+   width: 40vw;
+   height: 40vw;
+   background-color: #fff;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   border-radius: 50%;
+}
+
+.nav {
+   position: absolute;
+   z-index: 99999;
+   padding: 20px 50px;
+   font-family: "roboto", sans-serif;
+   text-transform: uppercase;
+}
+
+.btnav {
+   position: absolute;
+   z-index: 99999;
+   padding: 20px 50px;
+   bottom: 0;
+}
+
+.centerimg {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 9999;
+   width: 30vw;
+   /* background-color: orange; */
+
+}
+
+.centerimg h5 {
+   text-transform: uppercase;
+   font-weight: 400;
+   margin: 3px;
+   font-family: "roboto", sans-serif;
+}
+
+.centerimg img {
+   width: 100%;
+
+}
+
+.cimage {
+   position: relative;
+   width: 100%;
+   height: 200px;
+   /* background: #000; */
+
+}
+
+.cimage img {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   transform: translate(-50%, -50%);
+   top: 50%;
+   left: 50%;
+   object-fit: cover;
+}
+
+
+.overlay>h1.gallary {
+   z-index: 9999;
+   position: absolute;
+   bottom: 0;
+   font-size: 10vw;
+   left: 50%;
+   transform: translate(-50%, 0%);
+   font-family: "roboto", sans-serif;
+   font-weight: 400;
+   pointer-events: none;
+   text-transform: uppercase;
+   line-height: 10vw;
+}
+
+.gola {
+   width: 5vw;
+   height: 5vw;
+   position: absolute;
+   z-index: 999999;
+   transform: translate(-50%, -50%);
+   border-radius: 50%;
+   top: 150%;
+   left: 50%;
+   background-color: #007996;
+}
+
+.pf {
+   color: rgb(255, 255, 255);
+   bottom: -50%;
+   position: absolute;
+   font-size: 8vw;
+   left: 50%;
+   transform: translate(-50%, 0%) rotate(30deg);
+   transform-origin: 0% 50%;
+   font-family: "roboto", sans-serif;
+   font-weight: 400;
+   pointer-events: none;
+   text-transform: uppercase;
+   line-height: 10vw;
+
+}
+
+.pinkbox {
+   width: 25vw;
+   height: 55vh;
+   padding: 10vw 12vw;
+   background-image: linear-gradient( #007996,#8bc7d6);
+   position: absolute;
+   z-index: 99999;
+   top: 120%;
+   font-weight: 200;
+   font-family: 'roboto', sans-serif;
+
+}
+
+.pinkbox h4 {
+   margin: 3px;
+   transform: translate(-50%, 0%) rotate(5deg);
+   transform-origin: 0% 50%;
+   color: #fff;
+}
+
+.pinkbox h2 {
+   margin: 3px;
+   position: absolute;
+   top: 5%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /* background-color: red; */
+   -webkit-text-stroke: 1px 2px white;
+   width: 100%;
+   transform: translate(-50%, 0%) rotate(5deg);
+   transform-origin: 0% 50%;
+   color: #fff;
+}
+.pinkbox>img{
+   left: -10%;
+   bottom: 40%;
+   position: absolute;
+   color: #fff;
+   
+}
+
+/* Second page ---------------------------------------------------------------- */
+.second{
+   width: 100%;
+   height: 100vh;
+   background-color: #007996;
+}
+.stop{
+   width: 100%;
+   height: 60%;
+   background-color: #F4B29A;
+   position: relative;
+   /* border: 1px solid #ffffff; */
+   overflow: hidden;
+}
+.stop>h1{
+   font-weight: 100;
+   font-size: 30vw;
+   line-height: 1;
+   left: 100%;
+   bottom: 0;
+   z-index: 9999;
+   position: absolute;
+   font-family: "roboto",sans-serif;
+   color: white;
+}
+.scircle{
+   width: 14vw;
+   height: 14vw;
+   background-color: red;
+   border-radius: 50%;
+   position: absolute;
+   /* top: 50%; */
+   bottom: -50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.pu{
+   left: 45%;
+   background-color: #B4AAD5;
+   
+}
+.pink{
+   left: 55%;
+   background: linear-gradient(to right, #d5a7b4,#d5a7b4);
+   
+}
+.sbtm{
+   width: 100%;
+   height: 40%;
+   background-color: #0A4D5D;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.sbtm>h3{
+   
+   font-family: "roboto",sans-serif;
+   font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  line-height: 1;
+  width: 50%;
+  margin: 0 auto;
+  position: absolute;
+ /* background-color: red; */
+ 
+
+}
+
+@media(max-width:500px){
+   .nav {
+      font-size: 2vw;
+      padding: 15px 27px;
+      
+    }
+    .centerimg {
+      
+      width: 83vw;
+      
+    }
+    .btnav {
+      
+      padding: 134px 0px;
+      
+    }
+    .btnav>img{
+      width: 21vw;
+    }
+    .pinkbox{
+      width: 80vw;
+    }
+    .overlay > h1.gallary {
+      z-index: 9999;
+      line-height: 25vw;
+    }
+    .pinkbox {
+      width: 26vw;
+      height: 32vh;
+      padding: 19vw 28vw;
+   
+
+    }
+    .pinkbox > img {
+      left: -13%;
+      bottom: -6%;
+     
+    }
+    .gola {
+      width: 20vw;
+      height: 20vw;
+      
+    }
+    .smcircle{
+      width: 85vw;
+      height: 85vw;
+    }
+    .home .circle{
+      width: 150vw;
+      height: 150vw;
+    }
+    .stop > h1 {
+      font-weight: 100;
+      font-size: 59vw;
+     
+    }
+    .stop {
+      width: 100%;
+      height:43%;
+      background-color: #F4B29A;
+      position: relative;
+      border: 1px solid #ffffff;
+      overflow: hidden;
+    }
+    .sbtm > h3 {
+      font-family: "roboto",sans-serif;
+      font-size: 5vw;
+      
+      width: 81%;
+     
+    }
+}
